@@ -1,0 +1,12 @@
+def temperature(time):
+    a=2
+    b=1
+    c=1
+    
+    temperature=a*(time**2)+(b*time)+c
+    
+    return temperature
+    
+time=int(input("enter time:"))
+temp=temperature(time)
+print("temperature at ",time," is ",temp,'degrees')
